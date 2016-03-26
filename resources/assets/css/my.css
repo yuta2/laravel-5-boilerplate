@@ -1,0 +1,17 @@
+.skin-blue .sidebar-menu > li.header {
+    color: #05eefc;
+    background: #1a2226;
+}
+
+
+.skin-blue .sidebar-menu > li.active > a {
+    color: #ff7504;
+    background: #1e282c;
+    border-left-color: #ff7504;
+}
+
+.sidebar-menu li.header {
+    padding: 10px 25px 10px 15px;
+    font-size: 14px;
+}
+

@@ -112,7 +112,7 @@ return [
             'access' => [
                 'permissions' => [
                     'associated_roles' => '相關角色',
-                    'dependencies' => '依賴性',
+                    'dependencies' => '相依性',
                     'display_name' => '顯示名稱',
                     'group' => '群組',
                     'group_sort' => '群組排序',

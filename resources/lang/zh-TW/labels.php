@@ -33,7 +33,7 @@ return [
         'access' => [
             'permissions' => [
                 'create' => '建立權限',
-                'dependencies' => '依賴性',
+                'dependencies' => '',
                 'edit' => '編輯權限',
 
                 'groups' => [
@@ -54,7 +54,7 @@ return [
                 'no_ungrouped' => '沒有未分組的權限.',
 
                 'table' => [
-                    'dependencies' => '依賴性',
+                    'dependencies' => '相依性',
                     'group' => '群組',
                     'group-sort' => '群組排序',
                     'name' => '名稱',
@@ -68,7 +68,7 @@ return [
                 'tabs' => [
                     'general' => '一般',
                     'groups' => '所有群組',
-                    'dependencies' => '依賴性',
+                    'dependencies' => '相依性',
                     'permissions' => '所有權限',
                 ],
 
@@ -97,14 +97,14 @@ return [
                 'create' => '建立使用者',
                 'deactivated' => '停用帳號',
                 'deleted' => '刪除使用者',
-                'dependencies' => '依賴性',
+                'dependencies' => '相依性',
                 'edit' => '編輯使用者',
                 'management' => '使用者管理',
                 'no_other_permissions' => '沒有其他權限',
                 'no_permissions' => '沒有權限',
                 'no_roles' => '沒有角色設置.',
                 'permissions' => '權限',
-                'permission_check' => '如果有的話, 檢查權限也將檢查它的依賴性.',
+                'permission_check' => '如果有的話, 檢查權限也將檢查它的相依性.',
 
                 'table' => [
                     'confirmed' => '確認',

@@ -1,0 +1,2 @@
+在這裡您可以指定使用者許可權是取決於一項或多項權限.<br/><br/>
+    例如: 此權限是 <strong>create-user</strong> (建立使用者), 但如果使用者沒有同時具有 <strong>view-backend</strong> 及 <strong>view-access-management</strong> 的權限, 仍無法進入到 <strong>Create User</strong> (建立使用者) 的畫面.

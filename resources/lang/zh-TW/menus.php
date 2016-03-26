@@ -81,7 +81,7 @@ return [
             'it' => 'Italian',
             'pt-BR' => 'Brazilian Portuguese',
             'sv' => 'Swedish',
-            'zh-tw' => '正體中文',
+            'zh-TW' => '正體中文',
         ],
     ],
 ];

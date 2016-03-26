@@ -35,7 +35,8 @@ elixir(function(mix) {
       * Combine pre-processed frontend CSS files
       */
      .styles([
-        'frontend/app.css'
+        'frontend/app.css',
+        'my.css'
      ], 'public/css/frontend.css')
 
      /**
@@ -60,7 +61,8 @@ elixir(function(mix) {
       * Combine pre-processed backend CSS files
       */
      .styles([
-         'backend/app.css'
+         'backend/app.css',
+         'my.css'
      ], 'public/css/backend.css')
 
      /**

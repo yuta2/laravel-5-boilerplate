@@ -79,7 +79,7 @@ return [
             'it' => 'Italian',
             'pt-BR' => 'Brazilian Portuguese',
             'sv' => 'Swedish',
-            'zh-tw' => 'Traditional Chinese',
+            'zh-TW' => 'Traditional Chinese',
         ],
     ],
 ];

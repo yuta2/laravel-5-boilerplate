@@ -16,7 +16,7 @@ return [
     'backend' => [
         'access' => [
             'permissions' => [
-                'edit_explanation' => '如果你在層次結構中執行操作而沒有重新整理這個頁面, 你需要重新整理以反應變化.',
+                'edit_explanation' => '調整階層結構後需要重新整理頁面, 以反應實際變化.',
 
                 'groups' => [
                     'hierarchy_saved' => '層次結構已成功保存.',
@@ -84,7 +84,7 @@ return [
                 'role' => '基於角色 - ',
             ],
 
-            'js_injected_from_controller' => 'Javascript 從控制器注入',
+            'js_injected_from_controller' => '從控制器注入 Javascript',
 
             'using_blade_extensions' => '使用 Blade Extensions',
 

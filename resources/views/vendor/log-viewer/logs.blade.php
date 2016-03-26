@@ -117,7 +117,7 @@
                                 @endif
                             </th>
                         @endforeach
-                        <th class="text-right">Actions</th>
+                        <th class="text-right">{{ trans('labels.general.actions') }}</th>
                     </tr>
                     </thead>
                     <tbody>
