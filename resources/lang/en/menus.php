@@ -59,6 +59,9 @@ return [
         'sidebar' => [
             'dashboard' => 'Dashboard',
             'general' => 'General',
+            'main_navigation' => 'Navigation',
+
+            'bs_test' => 'Bootstrap Test',
         ],
     ],
 

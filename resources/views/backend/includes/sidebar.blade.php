@@ -28,8 +28,12 @@
 
         <!-- Sidebar Menu -->
         <ul class="sidebar-menu">
-            <li class="header">{{ trans('menus.backend.sidebar.general') }}</li>
+            <li class="header">{{ trans('menus.backend.sidebar.main_navigation') }}</li>
+            <li class="{{ Active::pattern('admin/bs_test') }}">
+                <a href="{!! route('admin.bs_test') !!}"><span>{{ trans('menus.backend.sidebar.bs_test') }}</span></a>
+            </li>
 
+            <li class="header">{{ trans('menus.backend.sidebar.general') }}</li>
             <!-- Optionally, you can add icons to the links -->
             <li class="{{ Active::pattern('admin/dashboard') }}">
                 <a href="{!! route('admin.dashboard') !!}"><span>{{ trans('menus.backend.sidebar.dashboard') }}</span></a>
