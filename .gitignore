@@ -12,6 +12,11 @@ Homestead.json
 /public/js/frontend.js
 /public/js/frontend.js.map
 /public/js/backend.js
+/resources/assets/css/backend/app.css
+/resources/assets/css/backend/app.css.map
+/resources/assets/css/frontend/app.css.map
+/resources/assets/css/frontend/app.css
+/.phpstorm.meta.php
 /public/js/backend.js.map
 
 .DS_Store

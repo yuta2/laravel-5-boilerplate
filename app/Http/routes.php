@@ -1,5 +1,4 @@
 <?php
-
 Route::group(['middleware' => 'web'], function() {
     /**
      * Switch between the included languages
@@ -36,4 +35,5 @@ Route::group(['namespace' => 'Backend', 'prefix' => 'admin', 'middleware' => 'ad
     require (__DIR__ . '/Routes/Backend/LogViewer.php');
     
     require (__DIR__ . '/Routes/Backend/BS_test.php');
+    require (__DIR__ . '/Routes/Backend/Datatables_test.php');
 });

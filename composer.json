@@ -17,7 +17,8 @@
         "spatie/laravel-backup": "^3.0",
         "barryvdh/laravel-ide-helper": "^2.1",
         "doctrine/dbal": "^2.5",
-        "anlutro/l4-settings": "^0.4.8"
+        "anlutro/l4-settings": "^0.4.8",
+        "yajra/laravel-datatables-oracle": "^6.10"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",

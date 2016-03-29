@@ -28,9 +28,12 @@
 
         <!-- Sidebar Menu -->
         <ul class="sidebar-menu">
-            <li class="header">{{ trans('menus.backend.sidebar.main_navigation') }}</li>
+            <li class="header">{{ trans('menus.backend.sidebar.testing') }}</li>
             <li class="{{ Active::pattern('admin/bs_test') }}">
                 <a href="{!! route('admin.bs_test') !!}"><span>{{ trans('menus.backend.sidebar.bs_test') }}</span></a>
+            </li>
+            <li class="{{ Active::pattern('admin/datatables_test') }}">
+                <a href="{!! route('datatables_test') !!}"><span>{{ trans('menus.backend.sidebar.datatables_test') }}</span></a>
             </li>
 
             <li class="header">{{ trans('menus.backend.sidebar.general') }}</li>

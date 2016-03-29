@@ -8,6 +8,23 @@ namespace App\Services\Macros;
  */
 trait Dropdowns
 {
+
+    public function selectSubsidiary($name, $selected = null, $options = array())
+    {
+        $list = [
+            ''   => '請選擇...',
+            'CFT' => '金豐台灣',
+            'CFC' => '金豐中國',
+            'CFGE' => '金豐精機',
+            'CFMY' => '金豐馬來西亞',
+            'CFTAI' => '金豐泰國',
+            'CFIN' => '金豐印尼',
+        ];
+
+        return $this->select($name, $list, $selected, $options);
+    }
+
+
     /**
      * Use this to set the default country state type for the shorthand method
      * @param  $name

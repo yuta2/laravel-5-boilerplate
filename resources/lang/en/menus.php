@@ -59,9 +59,11 @@ return [
         'sidebar' => [
             'dashboard' => 'Dashboard',
             'general' => 'General',
-            
+
             'main_navigation' => 'Navigation',
+            'testing' => 'Testing',
             'bs_test' => 'Bootstrap Test',
+            'datatables_test' => 'Datatables Test',
         ],
     ],
 

@@ -61,6 +61,9 @@ return [
             'dashboard' => '儀表板',
             'general' => '一般',
             'main_navigation' => '主導覽',
+            'testing' => '功能測試',
+            'bs_test' => 'Bootstrap Test',
+            'datatables_test' => 'Datatables Test',
         ],
     ],
 
@@ -73,14 +76,14 @@ return [
          * Be sure to add the new language in alphabetical order.
          */
         'langs' => [
-            'da' => 'Danish',
-            'en' => 'English',
-            'de' => 'German',
-            'es' => 'Spanish',
-            'fr' => 'French',
-            'it' => 'Italian',
-            'pt-BR' => 'Brazilian Portuguese',
-            'sv' => 'Swedish',
+            'da' => '丹麥文',
+            'en' => '英文',
+            'de' => '德文',
+            'es' => '西班牙文',
+            'fr' => '法文',
+            'it' => '義大利文',
+            'pt-BR' => '巴西葡萄牙文',
+            'sv' => '瑞典文',
             'zh-TW' => '正體中文',
         ],
     ],

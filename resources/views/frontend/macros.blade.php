@@ -9,6 +9,29 @@
                 <div class="panel-heading"><i class="fa fa-home"></i> {{ trans('labels.frontend.macros.macro_examples') }}</div>
 
                 <div class="panel-body">
+                    <!-- test1 -->
+                    <div class="form-group">
+                        <label>{{ trans('labels.frontend.macros.subsidiary') }}</label>
+                        <div class="callout callout-info">
+                            {{-- Shorthand for this is just selectState, set which version is shorthanded in Macros/Dropdowns --}}
+                            {!! Form::selectSubsidiary('subsidiary', 'CFT', ['class' => 'form-control']) !!}
+                            {{Form::select('size', array('L' => 'Large', 'S' => 'Small'),'S')}}
+                            {{Form::select('animal', array(
+                            'Cats' => array('leopard' => 'Leopard'),
+                            'Dogs' => array('spaniel' => 'Spaniel'),
+                            ))}}
+                            {{Form::selectRange('number', 10, 20)}}
+                            {{Form::selectMonth('month')}}
+                            {{Form::button('Click Me!')}}
+                            {{Form::file('image')}}
+                            {{Form::checkbox('name', 'value', true)}}
+                            {{Form::radio('name', 'value', true)}}
+                            {{Form::password('password')}}
+                            {{Form::label('email', 'E-Mail Address', array('class' => 'awesome'))}}
+                        </div>
+                    </div>  <!-- test1 -->
+
+
                     <div class="form-group">
                         <label>{{ trans('labels.frontend.macros.state.us.us') }}</label>
                         {{-- Shorthand for this is just selectState, set which version is shorthanded in Macros/Dropdowns --}}
