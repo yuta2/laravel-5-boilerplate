@@ -12,13 +12,13 @@ trait Dropdowns
     public function selectSubsidiary($name, $selected = null, $options = array())
     {
         $list = [
-            ''   => '請選擇...',
-            'CFT' => '金豐台灣',
-            'CFC' => '金豐中國',
-            'CFGE' => '金豐精機',
-            'CFMY' => '金豐馬來西亞',
-            'CFTAI' => '金豐泰國',
-            'CFIN' => '金豐印尼',
+            ''   => 'Please Choose...',
+            'CFT' => 'CFT',
+            'CFC' => 'CFC',
+            'CFGE' => 'CFGE',
+            'CFMY' => 'CFMY',
+            'CFTAI' => 'CFTAI',
+            'CFIN' => 'CFIN',
         ];
 
         return $this->select($name, $list, $selected, $options);
